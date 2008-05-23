@@ -3,7 +3,7 @@
 
 Summary:	Python bindings for liblzma
 Name:		python-%{module}
-Version:	0.3
+Version:	0.3.1
 Release:	%mkrel 1
 License:	LGPLv3+
 Group:		Development/Python
