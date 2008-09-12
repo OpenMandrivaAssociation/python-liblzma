@@ -3,8 +3,8 @@
 
 Summary:	Python bindings for liblzma
 Name:		python-%{module}
-Version:	0.3.1
-Release:	%mkrel 2
+Version:	0.4.0
+Release:	%mkrel 1
 License:	LGPLv3+
 Group:		Development/Python
 Url:		http://lzmautils.sourceforge.net/
@@ -36,7 +36,7 @@ rm -rf %{buildroot}
 
 %files
 %defattr(-,root,root)
-%doc README THANKS
-%{python_sitearch}/%{module}.so
+%doc README THANKS ChangeLog
+%{python_sitearch}/lzma.so
+%{python_sitearch}/%{module}.py*
 %{python_sitearch}/%{oname}*.egg-info
-
