@@ -3,14 +3,14 @@
 
 Summary:	Python bindings for liblzma
 Name:		python-%{module}
-Version:	0.4.1
-Release:	%mkrel 2
+Version:	0.5.0
+Release:	%mkrel 1
 License:	LGPLv3+
 Group:		Development/Python
 Url:		http://lzmautils.sourceforge.net/
 Source0:	%{oname}-%{version}.tar.lzma
 %py_requires -d
-BuildRequires:	liblzma-devel python-setuptools
+BuildRequires:	liblzma-devel >= 4.999.8beta python-setuptools
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description
