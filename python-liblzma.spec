@@ -4,7 +4,7 @@
 Summary:	Python bindings for liblzma
 Name:		python-%{module}
 Version:	0.5.2
-Release:	%mkrel 1
+Release:	%mkrel 2
 License:	LGPLv3+
 Group:		Development/Python
 Url:		http://lzmautils.sourceforge.net/
