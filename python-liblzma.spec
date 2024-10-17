@@ -7,7 +7,7 @@ Version:	0.5.3
 Release:	%mkrel 3
 License:	LGPLv3+
 Group:		Development/Python
-Url:		http://lzmautils.sourceforge.net/
+Url:		https://lzmautils.sourceforge.net/
 Source0:	%{oname}-%{version}.tar.xz
 %py_requires -d
 BuildRequires:	liblzma-devel >= 4.999.8beta python-setuptools
